@@ -1,0 +1,12 @@
+#N-Base-Remainders
+def base(num):
+    res = 0
+    n=num
+
+    while num!=0:
+        rem = num%12
+        res = res*12 + rem
+        num = num//12
+        print(rem)
+
+base(999 )
